@@ -2,22 +2,22 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 24px;
     color: #81959e;
     -webkit-font-smoothing: antialiased;
 }
 ::-moz-selection{
-	background-color:#00c684;
+	background-color:#1b9eb2;
 	color:#ffffff;
 }
 ::selection{
-	background-color:#00c684;
+	background-color:#1b9eb2;
 	color:#ffffff;
 }
 ::-webkit-selection {
-	background-color:#00c684;
+	background-color:#1b9eb2;
 	color:#ffffff;
 }
 h1, h2, h3, h4, h5{
@@ -71,7 +71,7 @@ img{
     cursor: pointer;
 }
 .owl-carousel .owl-dots .owl-dot.active {
-    background: #f5a91f;
+    background: #137fa0;
 }
 /*=== Owl dots css End ===*/
 /*=== Padding css start ===*/
@@ -183,10 +183,10 @@ img{
     display: block;
 }
 .radio_box label input[type=radio]:checked ~ .r_check{
-    border-color: #00c684;
+    border-color: #1b9eb2;
 }
 .radio_box label input[type=radio]:checked ~ .r_check:after{
-    background-color: #00c684;
+    background-color: #1b9eb2;
 }
 /*=== radio box css End ===*/
 /*== check box css ==*/
@@ -218,8 +218,8 @@ img{
     top: 3px;
     width: 10px;
     height: 5px;
-    border-left: 2px solid #00c684;
-    border-bottom: 2px solid #00c684;
+    border-left: 2px solid #1b9eb2;
+    border-bottom: 2px solid #1b9eb2;
     visibility:hidden;
     opacity:0;
     transition:all ease-in 0.25s;
@@ -233,7 +233,7 @@ img{
     /* font-weight: 600; */
 }
 .check_box input[type="checkbox"]:checked ~ .c_box{
-    border-color: #00c684;
+    border-color: #1b9eb2;
 }
 .check_box input[type="checkbox"]:checked ~ .c_box:after{
     visibility:visible;
@@ -250,7 +250,7 @@ img{
     background: #5a78e2;
 }
 .blue_bg_dark {
-    background: #00c684;
+    background: #1b9eb2;
 }
 .green_bg {
     background: #a0ce4e;
@@ -265,7 +265,7 @@ img{
     background: #ff4e4e;
 }
 .yellow_bg{
-    background: #f5a91f;
+    background: #137fa0;
 }
 /*== color css ==*/
 /*=== common css start ===*/
@@ -305,7 +305,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     width: auto;
 }
 .site_button {
-   	background: #00c684;
+   	background: #1b9eb2;
     color: #fff;
     font-size: 15px;
     border-radius: 2em;
@@ -325,12 +325,12 @@ button:focus, input:focus, select:focus, textarea:focus{
 .site_button:hover {
 	text-decoration: none;
 	color:#ffffff;
-	border-color:#f5a91f;
-	background-color:#f5a91f;
+	border-color:#137fa0;
+	background-color:#137fa0;
 }
 .site_button_white {
     background-color: #ffffff;
-    color: #00c684;
+    color: #1b9eb2;
     font-size: 15px;
     border-radius: 2em;
     text-align: center;
@@ -385,7 +385,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     font-size: 30px;
     font-weight: 600;
     text-transform: capitalize;
-    color: #f5a91f;
+    color: #137fa0;
     display: inline-block;
     position: relative;
 	padding-bottom:10px;
@@ -398,7 +398,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     bottom: 0;
     height: 2px;
     width: 70px;
-    background: #f5a91f;
+    background: #137fa0;
     margin-left: -35px;
 }
 .heading_section h2:after {
@@ -441,7 +441,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     width: 100%;
     padding: 10px 20px 10px 10px;
     position: relative;
-    background: #00c684;
+    background: #1b9eb2;
 }
 .modal-header .modal-title {
     font-size: 16px;
@@ -477,14 +477,14 @@ button:focus, input:focus, select:focus, textarea:focus{
 	-webkit-transition:all ease-in 0.25s;
 	-moz-transition:all ease-in 0.25s;
 	font-size: 18px;
-	background: #00c684;
+	background: #1b9eb2;
     width: 25px;
     height: 25px;
     text-align: center;
 }
 .owl-carousel .owl-nav > button.owl-prev:hover, 
 .owl-carousel .owl-nav > button.owl-next:hover{
-	background:#f5a91f;
+	background:#137fa0;
 }
 .owl-carousel .owl-nav > .owl-prev {
 	left:0px;
@@ -510,7 +510,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     height: 60px;
     border-radius: 50%;
     border: 7px solid #dadada;
-    border-top-color: #00c684;
+    border-top-color: #1b9eb2;
     top: 50%;
     left: 50%;
     margin-top: -30px;
@@ -553,8 +553,8 @@ button:focus, input:focus, select:focus, textarea:focus{
     margin-left: -3px;
 }
 .tabs_menu > li.active {
-	border-color:#00c684;
-    background-color: #00c684;
+	border-color:#1b9eb2;
+    background-color: #1b9eb2;
     color: #fff;
 }
 .tab_content_cover {
@@ -603,10 +603,9 @@ button:focus, input:focus, select:focus, textarea:focus{
 }
 /*=== common tabs css End ===*/
 /*==== Top Header css Start ====*/
-.coral_header {
+.main_header {
     float: left;
     width: 100%;
-    padding: 10px 0;
 }
 .c_top_header {
     width: 100%;
@@ -634,15 +633,16 @@ button:focus, input:focus, select:focus, textarea:focus{
 /*==== Top Header css End ====*/
 /*==== Middle Header css start ====*/
 .c_middle_header {
-    display: inline-block;
+    float: left;
     width: 100%;
 }
 .c_middle_header .row {
     align-items: center;
 }
-.sc_logo{
-	display:inline-block;
-	padding: 4px 0 3px;
+.sc_logo {
+    float: left;
+    margin-right: 15px;
+    padding: 13px 0 0;
 }
 .sc_logo > a {
     display: block;
@@ -665,7 +665,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 .nav_toggle i {
     float: left;
     width: 100%;
-    background: #00c684;
+    background: #1b9eb2;
     height: 3px;
     border-radius: 2em;
     -webkit-transition: all 500ms cubic-bezier(0.480, 0, 0.535, 1);
@@ -747,7 +747,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 .nav_right > ul > li {
     display: inline-block;
     position: relative;
-    padding: 14px 0;
+    padding: 14px 1px;
 }
 .nav_right > ul > li> a{
     display: inline-block;
@@ -755,28 +755,34 @@ button:focus, input:focus, select:focus, textarea:focus{
 .nav_right .icons {
     text-align: center;
     display: inline-block;
-	cursor:pointer;
+    cursor: pointer;
     text-transform: capitalize;
     text-decoration: none;
     border-radius: 2em;
     background: transparent;
-    color: #00c684;
-    border: 1px solid #00c684;
+    color: #999;
+    border: 1px solid #ccc;
     font-size: 14px;
     width: 35px;
     height: 35px;
     line-height: 35px;
     margin: 0;
 }
+.nav_right .icons img {
+    border-radius: 50%;
+}
 .nav_right .icons:hover {
-	background: #00c684;
+	background: #1b9eb2;
 	color:#ffffff;
+}
+.nav_right .user_icon .icons:hover {
+	background: transparent;
 }
 .nav_right > ul > li > ul {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #00c684;
+    background-color: #1b9eb2;
     min-width: 150px;
     box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.20);
     transform: translateY(30px);
@@ -800,7 +806,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     content: "";
     right: 10px;
     top: -10px;
-    border-bottom: 10px solid #00c684;
+    border-bottom: 10px solid #1b9eb2;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
@@ -817,7 +823,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     display: block;
 }
 .nav_right > ul > li > ul > li a:hover {
-    color: #00c684;
+    color: #1b9eb2;
     background: #fff;
 }
 .nav_right > ul > li:hover > ul {
@@ -839,22 +845,21 @@ button:focus, input:focus, select:focus, textarea:focus{
 	position:relative;
 }
 .navigation_menu {
-    text-align: center;
+    float: left;
 }
 .navigation_menu > ul {
     margin-bottom: 0;
     padding: 0;
     list-style: none;
-    display: inline-block;
-    margin-bottom: -7px;
-}
+    float: left;
+}	
 .navigation_menu > ul > li {
     float: left;
     position: relative;
+    padding: 17px 14px;
 }
 .navigation_menu > ul>li >a {
     display: block;
-    padding: 16px 14px;
     color: #222222;
     font-weight: 500;
     text-decoration: none;
@@ -863,7 +868,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 }
 .navigation_menu > ul> li > a:hover, 
 .navigation_menu > ul> li > a.active {
-    color: #00c684;
+    color: #1b9eb2;
 }
 /* == submenu css == */
 .navigation_menu > ul > li > ul {
@@ -880,14 +885,14 @@ button:focus, input:focus, select:focus, textarea:focus{
     padding: 0;
     list-style: none;
     text-align: left;
-    border-top: 1px solid #00c684;
+    border-top: 1px solid #1b9eb2;
 }
 .navigation_menu > ul > li > ul:after {
     position: absolute;
     content: "";
     left: 10px;
     top: -10px;
-    border-bottom: 10px solid #00c684;
+    border-bottom: 10px solid #1b9eb2;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
@@ -909,7 +914,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 }
 .navigation_menu > ul > li > ul > li > a:hover{
     color: #ffffff;
-	background: #00c684;
+	background: #1b9eb2;
 }
 .navigation_menu > ul > li:hover > ul {
 	display: block;
@@ -977,7 +982,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     float: left;
     font-size: 16px;
     line-height: 20px;
-    color: #f5a91f;
+    color: #137fa0;
 	width:20px
 }
 .mega_menu .links_head h5 {
@@ -1009,7 +1014,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     display: inline-block;
 }
 .mega_menu ul > li > a:hover {
-    color: #00c684;
+    color: #1b9eb2;
 }
 .mega_menu_col {
     float: left;
@@ -1056,7 +1061,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     color: inherit;
 }
 .mega_link_box:hover .contents h5{
-	color:#00c684;
+	color:#1b9eb2;
 }
 .mega_menu_bottom {
     width: 100%;
@@ -1165,7 +1170,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     -moz-box-shadow: 7px 5px 8px -2px rgba(0, 0, 0, 0.30);
 }
 .brands_slider .b_item .brand_title{
-    color: #f5a91f;
+    color: #137fa0;
     padding: 3px 4px;
     border-top: 1px solid #ccc;
 }
@@ -1212,7 +1217,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     margin-right: 8px;
 }
 .review_star i {
-    color: #f5a91f;
+    color: #137fa0;
 }
 .product_items .product_desc h4 {
     font-size: 18px;
@@ -1227,10 +1232,10 @@ button:focus, input:focus, select:focus, textarea:focus{
     text-decoration: none;
 }
 .product_items .product_desc h4 a:hover {
-    color: #00c684;
+    color: #1b9eb2;
 }
 .product_desc .amount {
-    color: #00c684;
+    color: #1b9eb2;
     font-size: 18px;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
@@ -1251,8 +1256,8 @@ button:focus, input:focus, select:focus, textarea:focus{
     display: inline-block;
     text-align: center;
     background: #fff;
-    color: #f5a91f;
-    border: 2px solid #f5a91f;
+    color: #137fa0;
+    border: 2px solid #137fa0;
     font-size: 14px;
     width: 37px;
     height: 37px;
@@ -1272,7 +1277,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 .pro_summary .pro_title {
     margin-top: 0;
     margin-bottom: 0;
-    color: #f5a91f;
+    color: #137fa0;
 }
 .pro_summary .prod_rating {
     margin: 15px 0 10px;
@@ -1287,12 +1292,12 @@ button:focus, input:focus, select:focus, textarea:focus{
     font-size: 15px;
 }
 .pro_summary .texts_row i {
-    color: #00c684;
+    color: #1b9eb2;
     margin-right: 7px;
 }
 .pro_summary .pro_amount {
     font-size: 25px;
-    color: #f5a91f;
+    color: #137fa0;
     margin: 16px 0 15px;
     font-weight: 600;
 }
@@ -1313,7 +1318,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     font-size: 15px;
 }
 .pro_summary .pro_available span {
-    color: #00c684;
+    color: #1b9eb2;
 }
 .pro_summary .pro_code{
     margin-bottom:15px;
@@ -1328,7 +1333,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     font-size: 15px;
 }
 .pro_summary p a:hover {
-    color: #00c684;
+    color: #1b9eb2;
 }
 .prod_summary_form {
     margin: 10px 0 15px;
@@ -1346,7 +1351,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 	border:1px solid #dddddd;
 }
 .prod_summary_form select {
-    background: #f5a91f;
+    background: #137fa0;
     color: #fff;
 }
 .ad_cart_btn {
@@ -1365,8 +1370,8 @@ button:focus, input:focus, select:focus, textarea:focus{
     text-align: center;
     font-size: 21px;
     float: left;
-    background-color: #f5a91f;
-    background-color: #f5a91f;
+    background-color: #137fa0;
+    background-color: #137fa0;
     color: #ffffff;
     cursor: pointer;
 }
@@ -1376,7 +1381,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 .prod_number .quantity input {
     height: 40px;
     width: 38px;
-    border: 1px solid #f5a91f;
+    border: 1px solid #137fa0;
     text-align: center;
     background-color: transparent;
     color: #000000;
@@ -1400,7 +1405,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     padding-left: 7px;
 }
 .pro_category a:hover {
-    color: #f5a91f;
+    color: #137fa0;
     padding-left: 7px;
 }
 /*==== product Details css End ====*/
@@ -1587,8 +1592,8 @@ button:focus, input:focus, select:focus, textarea:focus{
 .cart_remove_btn {
     display: inline-block;    
 	background-color: transparent;
-    color: #00c684;
-	border:2px solid #00c684;
+    color: #1b9eb2;
+	border:2px solid #1b9eb2;
     width: 30px;
     height: 30px;
     line-height: 28px;
@@ -1597,9 +1602,9 @@ button:focus, input:focus, select:focus, textarea:focus{
     text-align: center;
 }
 .cart_remove_btn:hover { 
-	background-color: #00c684;
+	background-color: #1b9eb2;
     color: #fff;
-	border-color:#00c684;
+	border-color:#1b9eb2;
 }
 .cart_button_wrap {
     display: inline-block;
@@ -1727,8 +1732,8 @@ button:focus, input:focus, select:focus, textarea:focus{
 }
 .pagination_wrap > ul > li a:hover, .pagination_wrap > ul > li a.active {
     color: #ffffff;
-    border-color:#00c684;
-    background: #00c684;
+    border-color:#1b9eb2;
+    background: #1b9eb2;
 }
 /*==== pagination css End ====*/
 /*==== offers banner css start ====*/
@@ -1767,7 +1772,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     margin-bottom: 16px;
 }
 .googleplay_text h5 span {
-    color: #f5a91f;
+    color: #137fa0;
 }
 .googleplay_text p {
     margin-bottom: 10px;
@@ -1789,7 +1794,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     cursor: pointer;
     display: inline-block;
     width: 100%;
-    color: #00c684;
+    color: #1b9eb2;
     margin-bottom: 10px;
 }
 .filter_heading i {
@@ -1800,7 +1805,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     margin: 0;
     font-size: 17px;
     line-height: 24px;
-    color: #00c684;
+    color: #1b9eb2;
     font-weight: 500;
     display: inline-block;
 }
@@ -1819,7 +1824,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 .p_widget_title {
     display: inline-block;
     width: 100%;
-    background: #00c684;
+    background: #1b9eb2;
     color: #fff;
     padding: 10px;
 	cursor:pointer;
@@ -1854,7 +1859,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     margin-bottom: 16px;
 }
 .about_text h5 span {
-    color: #00c684;
+    color: #1b9eb2;
 }
 .about_text .about_btn {
     margin-top: 18px;
@@ -1877,7 +1882,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     line-height: 100px;
     font-size: 50px;
     color: #fff;
-    background: #00c684;
+    background: #1b9eb2;
     border-radius: 50%;
     text-align: center;
 }
@@ -1890,7 +1895,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 .privacy_policy_text h5, 
 .privacy_policy_text h6, 
 .privacy_policy_text h4 {
-    color: #f5a91f;
+    color: #137fa0;
 }
 .privacy_policy_text ul, .privacy_policy_text ol {
     padding-left: 19px;
@@ -1924,7 +1929,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #f5a91f;
+    color: #137fa0;
     left: 0;
     top: 3px;
 }
@@ -1974,7 +1979,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 .mfp-image-holder .mfp-close, 
 .mfp-iframe-holder .mfp-close { 
     color: #fff !important;
-    background: #00c684 !important;
+    background: #1b9eb2 !important;
     float: right;
     width: 40px;
     height: 35px;
@@ -1994,13 +1999,13 @@ button:focus, input:focus, select:focus, textarea:focus{
 	border-left: none;
 }
 .mfp-arrow-right:after {
-	border-left-color: #00c684;
+	border-left-color: #1b9eb2;
 }
 .mfp-arrow-left:before {
 	border-right: none;
 }
 .mfp-arrow-left:after {
-	border-right-color: #00c684;
+	border-right-color: #1b9eb2;
 }
 /*====== magnific popup gallery css =========*/
 /*==== page banner css Start ====*/
@@ -2051,7 +2056,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     font-size: 15px;
 }
 .breadcrumb_wrapper .breadcrumb > li > a:hover{
-	color:#00c684;
+	color:#1b9eb2;
 }
 /*==== page banner css End ====*/
 /*==== Faq page css End ====*/
@@ -2066,7 +2071,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 .accordion_heading {
     display: inline-block;
     width: 100%;
-    background: #00c684;
+    background: #1b9eb2;
     padding: 12px 30px 12px 10px;
     position: relative;
     border-radius: 4px;
@@ -2084,7 +2089,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     position: absolute;
     right: 5px;
     top: 10px;
-    color: #00c684;
+    color: #1b9eb2;
     background: #fff;
     width: 24px;
     height: 24px;
@@ -2154,7 +2159,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 .contact_form_cover {
     display: inline-block;
     width: 100%;
-    background: #00c684;
+    background: #1b9eb2;
     padding: 20px;
 }
 .contact_form_cover .contact_heading h3 {
@@ -2201,7 +2206,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 }
 .contact_form .submit_btn {
     background-color: #ffffff;
-    color: #00c684;
+    color: #1b9eb2;
     font-size: 15px;
     border-radius: 2em;
     border: 1px solid transparent;
@@ -2269,19 +2274,19 @@ button:focus, input:focus, select:focus, textarea:focus{
 	text-decoration:none;
 }
 .address_list > li a:hover{
-	color: #00c684;
+	color: #1b9eb2;
 }
 .address_list > li .ad_icon{
  float:left;
  width:40px;
 }
 .address_list > li i {
-    color: #00c684;
+    color: #1b9eb2;
     font-size: 18px;
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background: #00c684;
+    background: #1b9eb2;
     color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -2310,241 +2315,6 @@ button:focus, input:focus, select:focus, textarea:focus{
 	border:none;
 }
 /*==== Map section css End ====*/
-
-/*==== Footer css Start ====*/
-.footer_widget p {
-    color: #bfbcbc;
-}
-.footer_section {
-    float: left;
-    width: 100%;
-    background-color: #222222;
-    padding-top: 40px;
-}
-.footer_logo {
-    display: inline-block;
-    margin-bottom: 10px;
-}
-.footer_logo img {
-    max-height: 50px;
-}
-.footer_menu {
-    float: left;
-    width: 100%;
-}
-.footer_menu ul {
-    display: inline-block;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.footer_menu ul li {
-    float: left;
-    width: 100%;
-    margin-bottom: 7px;
-}
-.footer_menu ul li a {
-    color: #bfbcbc;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: capitalize;
-    padding: 0;
-    text-decoration: none;
-    display: inline-block;
-}
-.footer_menu ul li a i {
-    font-size: 17px;
-    margin-right: 7px;
-    color: #f5a91f;
-}
-.footer_menu ul li a:hover {
-    color: #ffffff;
-}
-.footer_widget {
-    float: left;
-    width: 100%;
-    margin-bottom: 30px;
-}
-.widget_title {
-    margin-top: 0;
-    color: #ffffff;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 0.05em;
-}
-.footer_social {
-    display: inline-block;
-    width: 100%;
-}
-.footer_social .icon_lnk {
-    display: flex;
-    display: -webkit-flex;
-    display: -moz-flex;
-    width: 100%;
-    color: #fff;
-    text-decoration: none;
-    font-size: 15px;
-    text-transform: capitalize;
-    align-items: center;
-    margin-bottom: 3px;
-}
-.social_icons > a {
-    font-size: 16px;
-    padding: 0 4px;
-    color: #81959e;
-    text-decoration: none;
-}
-.social_icons > a:hover {
-    font-size: 16px;
-    color: #ffffff;
-    text-decoration: none;
-}
-.footer_widget .address_list > li{
-	margin-bottom:4px;
-}
-.footer_widget .address_list > li .ad_icon {
-    width: 20px;
-}
-.footer_widget .address_list > li i {
-    width: auto;
-    height: auto;
-    line-height: inherit;
-    background: transparent;
-    color: #fff;
-}
-.footer_widget .address_list > li div {
-    padding-left: 26px;
-}
-.footer_widget .address_list > li div p, 
-.footer_widget .address_list > li div a {
-    font-size: 14px;
-    line-height: 22px;
-    color: #bfbcbc;
-    font-weight: 400;
-}
-.footer_widget .address_list > li div a:hover {
-    color: #f5a91f;
-}
-.footer_widget .add_head {
-    margin-top: 10px;
-    margin-bottom: 12px;
-    color: #fff;
-}
-.newsletter_widget p {
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 17px;
-}
-.f_newsletter {
-    display: inline-block;
-    width: 100%;
-    position: relative;
-}
-.f_newsletter input {
-    position: relative;
-    width: 100%;
-    height: 40px;
-    padding: 0 36px 0 9px;
-    color: #fff;
-    border: 1px solid #d9d9d9;
-    background: transparent;
-    border-radius: 2em;
-}
-.f_newsletter .serach_icon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0;
-    border: none;
-    font-size: 14px;
-    background: #f5a91f;
-    color: #fff;
-    width: 35px;
-    height: 40px;
-    border-radius: 0 2em 2em 0em;
-    text-align: center;
-}
-.fixed_social_icons {
-    position: fixed;
-    left: 10px;
-    top: 50%;
-    width: 40px;
-    text-align: center;
-    z-index: 1;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-}
-.fixed_social_icons a {
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    margin: 3px 0px;
-    color: #ffffff;
-    background: #00c684;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50%;
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.28);
-    -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.28);
-}
-/*==== Footer css End ====*/
-/*==== Footer post css start ====*/
-.single_post {
-    position: relative;
-    margin-bottom: 20px;
-    display: inline-block;
-    width: 100%;
-}
-.single_post:last-child {
-    margin-bottom:0px;
-}
-.single_post .img_box {
-    float: left;
-    width: 85px;
-}
-.single_post .img_box img {
-    width: 85px;
-    height: 65px;
-    border-radius: 4px;
-    object-fit: cover;
-}
-.single_post .post_detail {
-    padding-left: 100px;
-}
-.single_post .post_detail h6 a {
-    font-size: 15px;
-    font-weight: 400;
-    color: #fff;
-    text-decoration: none;
-    white-space: nowrap;
-    max-width: 100%;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: inline-block;
-}
-.single_post .post_detail h6 a:hover{
-    color: #00c684;
-}
-.single_post .post_detail ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-.single_post .post_detail ul li {
-    position: relative;
-    display: inline-block;
-    font-size: 13px;
-    line-height: 25px;
-}
-/*==== Footer post css End ====*/
 /*==== bottom Footer css Start ====*/
 .footer_bottom {
     float: left;
@@ -2575,8 +2345,20 @@ button:focus, input:focus, select:focus, textarea:focus{
 .copyright_text a:hover {
     color: #ffffff;
 }
-.footer_social{
+.footer_social {
+    display: inline-block;
+    width: 100%;	
 	text-align:right;
+}
+.footer_social > a {
+    display: inline-block;
+    color: #ccc;
+    font-size: 15px;
+    margin: 0 4px;
+	text-decoration:none;
+}
+.footer_social > a:hover{
+    color: #1b9eb2;
 }
 /*==== bottom Footer css End ====*/
 /*==== search bar popup css Start ===*/
@@ -2626,172 +2408,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     color:#ffffff;
 }
 /*==== search bar popup css End ====*/
-/*==== cart overlay css start ====*/
-.cart_overlay_body {
-    backface-visibility: hidden;
-    background-color: rgba(0, 0, 0, 0.8);
-    height: 100%;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    position: fixed;
-    top: 0;
-    transition: all ease-in 0.25s;
-    -webkit-transition: all ease-in 0.25s;
-    -moz-transition: all ease-in 0.25s;
-    width: 100%;
-    z-index: 9999;
-}
-.cart_overlay_offset {
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.73);
-    height: 100%;
-    width: 475px;
-    opacity: 0;
-	visibility:hidden;
-    right: -100%;
-    top: 0;
-    overflow-y: auto;
-    -webkit-transition: all 0.25s ease .2s;
-    -moz-transition: all 0.25s ease .2s;
-    transition: all 0.25s ease .2s;
-    z-index: 999;
-}
-.cart_offset_inner {
-    width: 100%;
-    display: inline-block;
-    height: 100%;
-    padding: 70px 40px 50px;
-}
-.cart_close {
-    position: absolute;
-    right: 20px;
-    top: 15px;
-    font-size: 20px;
-    background: #00c684;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    line-height: 42px;
-    border-radius: 50%;
-    text-align: center;
-    cursor: pointer;
-}
-.shp_cart_wrap {
-    width: 100%;
-    display: inline-block;
-    overflow-y: auto;
-    max-height: 300px;
-    overflow-x: hidden;
-}
-.shp_cart_list {
-    width: 100%;
-    display: inline-block;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    position: relative;
-    border-bottom: 1px solid #555555;
-    padding-right: 15px;
-}
-.shp_cart_list .cart_thumb {
-    margin-right: 20px;
-    float: left;
-    width: 80px;
-}
-.shp_cart_list .cart_thumb a{
-	display:block;
-}
-.shp_cart_list .cart_thumb img {
-	max-width: 100%;
-}
-.shp_cart_list .cart_details {
-    padding-left:90px;
-}
-.shp_cart_list .remove_btn {
-    position: absolute;
-    right: 0;
-    top: 5px;
-    font-size: 17px;
-    color: #ffffff;
-}
-.shp_cart_list .remove_btn a{
-	color:#ffffff;
-}
-.shp_cart_list .cart_details h4 {
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 500;
-    margin: 0 0 10px;
-    text-transform: capitalize;
-}
-.shp_cart_list .cart_details h4 a {
-    text-decoration: none;
-    color: #eeeeee;
-    text-transform: capitalize;
-}
-.shp_cart_list .cart_details .qty {
-    display: block;
-    color: #ccc;
-    line-height: normal;
-    font-size: 14px;
-}
-.shp_cart_list .cart_details .pro_price {
-    color: #f5a91f;
-    display: block;
-    letter-spacing: 1px;
-}
-.shoping_total {
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-    padding: 20px 0;
-}
-.shoping_total .subtotal {
-    color: #eeeeee;
-    font-weight: 400;
-    font-size: 18px;
-	display:inline-block;
-}
-.shoping_total .total_price {
-    color: #f5a91f;
-    float: right;
-    letter-spacing: 1px;
-    font-size: 18px;
-}
-.shopping_btn{
-	display:inline-block;
-	width:100%;
-	text-align:center;
-}
-.shopping_btn a {
-    background-color: #00c684;
-    border: none;
-    color: #fff;
-    font-size: 15px;
-    height: 45px;
-    line-height: 45px;
-    margin: 3px;
-    padding: 0 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-.shopping_btn a:hover {
-    background: #ffffff;
-    color: #00c684;
-}
-.cart_overlay_body.open{
-	opacity: 1;
-    visibility: visible;
-}
-.cart_overlay_body.open .cart_overlay_offset {
-	opacity:1;
-	right:0;
-	visibility:visible;
-}
-/*==== cart overlay css End ====*/
+
 /*==== login css start ====*/
 .login_form_thumb .img_box img {
     display: inline-block;
@@ -2822,7 +2439,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     font-weight: 700;
 }
 .form_heading p {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .login_form .form_group {
     margin-bottom: 15px;
@@ -2850,13 +2467,13 @@ button:focus, input:focus, select:focus, textarea:focus{
 .form_text_group {
     display: inline-block;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 25px;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
 }
 .form_text_group a {
-    color: #00c684;
+    color: #1b9eb2;
     text-decoration: none;
 }
 .form_text_group a:hover {
@@ -2873,14 +2490,14 @@ button:focus, input:focus, select:focus, textarea:focus{
     color: #81959e;
 }
 .remember_row .forget_lnk:hover {
-    color: #00c684;
+    color: #1b9eb2;
 }
 .remember_row .check_box {
     display: inline-block;
 }
 .remember_row .check_box a {
     text-decoration: none;
-    color: #00c684;
+    color: #1b9eb2;
 }
 .remember_row .check_box a:hover {
     text-decoration: none;
@@ -2901,7 +2518,7 @@ button:focus, input:focus, select:focus, textarea:focus{
 .other_login .btns {
     display: inline-block;
     width: 100%;
-    background: #4267b2;
+    background: #1b9eb2;
     border-radius: 2em;
     color: #fff;
     font-size: 15px;
@@ -2910,8 +2527,14 @@ button:focus, input:focus, select:focus, textarea:focus{
     text-decoration: none;
     text-transform: capitalize;
 }
+.other_login .f_login {
+    background: #4267b2;
+}
 .other_login .t_login {
     background: #26a3d9;
+}
+.other_login .l_login {
+    background: #007bb6;
 }
 .other_login .btns i {
     display: inline-block;
@@ -2925,6 +2548,75 @@ button:focus, input:focus, select:focus, textarea:focus{
     margin-right: 9px;
 }
 /*==== login css End ====*/
+/*==== verify Register css start ====*/
+.verify_mobile_form {
+    text-align: center;
+}
+.verify_mobile_form .another_way_txt {
+    color: #81959e;
+    text-decoration: none;
+    font-weight: 500;
+}
+.verify_mobile_form .another_way_txt:hover {
+    color: #1b9eb2;
+}
+.verify_mobile_form .join_btn {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    text-transform: initial;
+}
+/*====Verify Register css End ====*/
+/*====Verify Account Register css start ====*/
+.verify_link_check input{
+	display:none;
+}
+.verify_link_check label {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+}
+.verify_link_check .verify_link {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    color: #2a2b2b;
+    font-size: 15px;
+    padding: 10px 5px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    text-align: center;
+	cursor:pointer;
+}
+.verify_link i {
+    margin-right: 8px;
+    display: inline-block;
+    background: #1b9eb2;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+.verify_link_check label input[type=radio]:checked ~ .verify_link{
+    border-color: #1b9eb2;
+    background: #1b9eb2;
+	color:#ffffff;
+}
+.verify_link_check label input[type=radio]:checked ~ .verify_link i{
+    background: #ffffff;
+	color:#1b9eb2;
+}
+.verify_account_form .join_btn {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+}
+/*====Verify Account Register css End ====*/
 /*==== My profile sidebar css Start ====*/
 .prof_sidebar_open {
     text-transform: capitalize;
@@ -2981,14 +2673,14 @@ button:focus, input:focus, select:focus, textarea:focus{
 .myprofile_sidebar ul > li > a:hover, 
 .myprofile_sidebar ul > li > a:focus, 
 .myprofile_sidebar ul > li > a.active {
-    color: #f5a91f;
+    color: #137fa0;
 }
 .myprofile_sidebar ul > li:last-child > a {
 	border-bottom:none;
 }
 .myprofile_sidebar ul > li > a i {
     margin-right: 10px;
-    color: #f5a91f;
+    color: #137fa0;
 }
 /*==== My profile sidebar css End ====*/
 /*==== My profile contents css End ====*/
@@ -3011,7 +2703,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     display: inline-block;
     width: 100%;
     padding: 10px 15px;
-    background: #f5a91f;
+    background: #137fa0;
 }
 .usr_info_box .info_heading h5 {
     float: left;
@@ -3053,7 +2745,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     font-size: 17px;
     width: 30px;
     background: transparent;
-    color: #00c684;
+    color: #1b9eb2;
     height: auto;
     line-height: initial;
 }
@@ -3106,7 +2798,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     position: absolute;
     right: 0;
     top: 10px;
-    color: #00c684;
+    color: #1b9eb2;
     font-size: 15px;
     width: 30px;
     height: 30px;
@@ -3128,7 +2820,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     text-transform: capitalize;
 }
 .wishlist_row .wish_details h4 a:hover{
-	color:#f5a91f;
+	color:#137fa0;
 }
 .wishlist_row .wish_details .qty {
     display: block;
@@ -3136,7 +2828,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     font-size: 14px;
 }
 .wishlist_row .wish_details .pro_price {
-    color: #f5a91f;
+    color: #137fa0;
     display: block;
     letter-spacing: 1px;
 }
@@ -3158,7 +2850,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     font-size: 14px;
 }
 .myorder_table .table thead tr th {
-    background: #f5a91f;
+    background: #137fa0;
     color: #fff;
     font-weight: 400;
     font-size: 14px;
@@ -3184,14 +2876,14 @@ button:focus, input:focus, select:focus, textarea:focus{
 }
 .myorder_table .view_order_btn {
     font-size: 12px;
-    background: #f5a91f;
+    background: #137fa0;
     padding: 5px 5px;
     border-radius: 5px;
     color: #fff;
     text-decoration: none;
 }
 .myorder_table .view_order_btn:hover {
-    background: #00c684;
+    background: #1b9eb2;
     color: #fff;
 }
 .myorder_table .view_order_btn i {
@@ -3226,7 +2918,7 @@ button:focus, input:focus, select:focus, textarea:focus{
     cursor: pointer;
 }
 .myorder_tab > li.active {
-    border-bottom-color: #00c684;
-    color: #00c684;
+    border-bottom-color: #1b9eb2;
+    color: #1b9eb2;
 }
 /*==== My Order tabs css End ====*/
